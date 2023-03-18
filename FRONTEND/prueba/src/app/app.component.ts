@@ -6,6 +6,7 @@ import { Person } from './models/person';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Rol } from './models/rol';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

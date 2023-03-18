@@ -7,6 +7,6 @@ export class Person {
     name2?:string;
     lastname1?:string;
     lastname2?:string;
-    roleid?:Rol
+    roleid?:number
 
 }

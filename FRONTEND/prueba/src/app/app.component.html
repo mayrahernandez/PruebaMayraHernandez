@@ -69,7 +69,11 @@
         <td>{{person.documento}}</td>
         <td>{{person.name1 }} {{person.name2}}</td>
         <td>{{person.lastname1 +" "+ person.lastname2}} </td>
-        <td>{{person.roleid}}</td>
+        <td>
+          <span *ngIf="person.roleid==1">Profesor</span>
+          <span *ngIf="person.roleid==2">Estudiante</span>
+        </td>
+
       </tr>
     </tbody>
   </table>
